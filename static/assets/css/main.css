@@ -1,0 +1,82 @@
+.space{
+  margin-top: 5%;
+}
+.tweetlist{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 4px;
+  background-color: #f8f9fa;
+  display:inline-block;
+  vertical-align: top;
+}
+.tweet{
+  width: 250px;
+}
+.date{
+  background-color: grey;
+  text-align: center;
+  color: white;
+}
+.heading{
+  text-align: center;
+}
+.outtweet{
+  padding: 6px;
+  text-align: right;
+}
+.home_split{
+  display: flex;
+  background-color: #f8f9fa
+}
+@media screen and (max-width: 750px) {
+  .home_split{
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+  }
+}
+.home_left{
+  flex: 50%;
+}
+.home_left_inner{
+  margin-top: 12px;
+  margin-left: 18px;
+  margin-bottom: 18px;
+}
+.home_right{
+  flex: 50%;
+  background-color: #f8f9fa;
+}
+.home_right_inner{
+  padding-top: 12px;
+  padding-left: 18px;
+}
+.users{
+  padding-top: 6px;
+  display:flex;
+  flex-wrap: wrap;
+}
+.usersfeat{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: -15px;
+}
+.usercol{
+  margin-left: 12px;
+}
+.user1{
+  margin-right: 15px;
+}
+.user2{
+  margin-left: 15px;
+}
+.vs{
+  margin-top: 5px;
+}
+.pred{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
